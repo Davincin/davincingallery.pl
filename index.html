@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Davincin Gallery</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@400;500;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/e1106258ad.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header" id="header">
+        <div class="row">
+            <h1 class="header__title">
+                <i class="fas fa-camera-retro"></i>
+                Davincin Gallery
+            </h1>
+            <a class="header__github-link" href="https://github.com/Davincin/davincingallery.pl" target="_blank" title="Davincin Gallery on GitHub">
+                <i class="fab fa-github"></i>
+                View on GitHub
+            </a>
+        </div>
+    </header>
+    <section class="gallery" id="gallery">
+        <div class="hero-shadow"></div>
+        <div class="row">
+            <div class="gallery__img-box">
+                <div class="gallery__zoom-box">
+                    <i class="fas fa-search-plus"></i>
+                </div>
+                <img src="./img/shanghai_small.jpg" alt="Shanghai" class="gallery__img">
+            </div>
+            <div class="gallery__img-box">
+                <div class="gallery__zoom-box">
+                    <i class="fas fa-search-plus"></i>
+                </div>
+                <img src="./img/warsaw_small.jpg" alt="Warsaw" class="gallery__img">
+            </div>
+            <div class="gallery__img-box">
+                <div class="gallery__zoom-box">
+                    <i class="fas fa-search-plus"></i>
+                </div>
+                <img src="img/dubai_small.jpg" alt="Dubai" class="gallery__img">
+            </div>
+            <div class="gallery__img-box">
+                <div class="gallery__zoom-box">
+                    <i class="fas fa-search-plus"></i>
+                </div>
+                <img src="img/lasvegas_small.jpg" alt="Las Vegas" class="gallery__img">
+            </div>
+            <div class="gallery__img-box">
+                <div class="gallery__zoom-box">
+                    <i class="fas fa-search-plus"></i>
+                </div>
+                <img src="img/chicago_small.jpg" alt="Chicago" class="gallery__img">
+            </div>
+            <div class="gallery__img-box">
+                <div class="gallery__zoom-box">
+                    <i class="fas fa-search-plus"></i>
+                </div>
+                <img src="img/la_small.jpg" alt="Los Angeles" class="gallery__img">
+            </div>
+            <div class="gallery__img-box">
+                <div class="gallery__zoom-box">
+                    <i class="fas fa-search-plus"></i>
+                </div>
+                <img src="img/ny_small.jpg" alt="New York" class="gallery__img">
+            </div>
+            <div class="gallery__img-box">
+                <div class="gallery__zoom-box">
+                    <i class="fas fa-search-plus"></i>
+                </div>
+                <img src="img/kualalumpur_small.jpg" alt="Kuala Lumpur" class="gallery__img">
+            </div>
+        </div>
+    </section>
+    <section class="gallery-solo">
+        <div class="row">
+            <img src="img/shanghai.jpg" alt="Photo" class="gallery-solo__img">
+            <div class="gallery-solo__buttons">
+                <button class="gallery-solo__button gallery-solo__previous-button">
+                    <i class="fas fa-angle-left"></i>
+                </button>
+                <button class="gallery-solo__button gallery-solo__next-button">
+                    <i class="fas fa-angle-right"></i>
+                </button>
+                <button class="gallery-solo__button gallery-solo__play-button">
+                    <i class="fas fa-play gallery-solo__play-icon"></i>
+                    <i class="fas fa-pause gallery-solo__pause-icon"></i>
+                </button>
+                <button class="gallery-solo__button gallery-solo__exit-button">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+        </div>
+    </section>
+    <script src="js/main.js"></script>
+</body>
+</html>
